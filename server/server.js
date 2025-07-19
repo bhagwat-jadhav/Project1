@@ -8,7 +8,7 @@ app.get('/login',(req,res)=>{
         });
 app.post('/login',(req,res)=>{
         res.send(req.body);
-}
+});
                  app.listen(PORT,()=>{
                             console.log('server running at port 3000');
                             });
