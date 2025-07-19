@@ -3,7 +3,7 @@ const path= require("path");
 const app = express ();
 const PORT= process.env.PORT || 3000;
 app.get('/login',(req,res)=>{
-        res.sendFile(path.join(__dirname,'index.html')); 
+        res.sendFile(path.join(__dirname,'Index.html')); 
         });
                  app.listen(PORT,()=>{
                             console.log('server running at port 3000');
